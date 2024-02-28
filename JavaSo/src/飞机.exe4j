@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="8.0" transformSequenceNumber="3">
+  <directoryPresets config="D:/jdk1.8.0_152" />
+  <application name="天天打飞机" distributionSourceDir="D:/JavaSo/src" />
+  <executable name="天天打飞机" wrapperType="embed" iconSet="true" iconFile="C:/Users/李光士/Pictures/Saved Pictures/plane.ico" executableMode="gui" />
+  <java mainClass="GameFrame" minVersion="1.7" maxVersion="1.8">
+    <searchSequence>
+      <directory location="../../jdk1.8.0_152/jre" />
+      <registry />
+      <envVar name="JAVA_HOME" />
+      <envVar name="JDK_HOME" />
+    </searchSequence>
+    <classPath>
+      <archive location="D:/JavaSo/out/artifacts/So_jar/So.jar" failOnError="false" />
+    </classPath>
+  </java>
+</exe4j>
